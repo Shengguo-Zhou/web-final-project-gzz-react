@@ -1,0 +1,16 @@
+{
+  "_id": 456,
+  "firstName": "Naruto",
+  "lastName": "Uzumaki",
+  "handle": "@naruto",
+  "profilePicture": "naruto.jpg",
+  "bannerPicture": "animeBanner.jpg",
+  "bio": "Seventh Hokage, Hero of the Hidden Leaf, Boy of Miracles, The Show-Off, Number One Unpredictable, Noisy Ninja!",
+  "website": "https://naruto.fandom.com/wiki/Naruto_Uzumaki",
+  "location": "Konohagakure, Japan",
+  "dateOfBirth": "1991-10-10",
+  "dateJoined": "2021-12",
+  "followingCount": 888,
+  "followersCount": 889,
+  "tuits": 32
+}

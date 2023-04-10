@@ -1,0 +1,27 @@
+[
+  {
+    "_id": 123,
+    "userName": "Warren Buffett",
+    "handle": "buffett",
+    "avatarIcon": "nyt.png"
+  },
+  {
+    "_id": 234,
+    "userName": "Cathie Wood",
+    "handle": "cathiewood",
+    "avatarIcon": "jeff.png"
+  },
+  {
+    "_id": 345,
+    "userName": "Elon Musk",
+    "handle": "elsomusk",
+    "avatarIcon": "TSLA.jpeg"
+  },
+  {
+    "_id": 456,
+    "userName": "Jeff Bezos",
+    "handle": "jeffinamazon",
+    "avatarIcon": "jeff.png"
+  }
+]
+

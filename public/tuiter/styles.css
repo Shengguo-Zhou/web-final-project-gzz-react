@@ -1,0 +1,15 @@
+.wd-background-color{
+  background: black;
+}
+
+.wd-border{
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  border-style: solid;
+}
+
+.wd-flex-container-between {
+  display: flex;
+  justify-content: space-between;
+}
+
