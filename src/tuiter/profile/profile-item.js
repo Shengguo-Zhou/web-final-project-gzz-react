@@ -37,7 +37,7 @@ const ProfileItem = (
                src={profile.profilePicture}
                height={100} width={100}
                alt="profile_picture"/>
-          <button onClick={()=>navigate("/tuiter/edit-profile")}
+          <button onClick={()=>navigate("/edit-profile")}
                   className="rounded-pill btn btn-outline-secondary text-dark mt-2 ps-3 pe-3 float-end fw-bold">
             Edit profile
           </button>

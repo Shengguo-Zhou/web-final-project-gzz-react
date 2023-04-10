@@ -8,14 +8,7 @@ const TuitsListItem = ({tuit}) => {
   const deleteTuitHandler = (id) => {
     dispatch(deleteTuitThunk(id));
   }
-  // const likeCountTuitHandler = (id) =>{
-  //   dispatch(likeTuit(id));
-  // }
-  //
-  // const toggleLikeHandler = () => {
-  //   const isLiked = !tuit.liked;
-  //   dispatch(likeTuit({ tuitId: tuit._id, isLiked }));
-  // };
+
 
   return (
       <li className="list-group-item" style={{color: "white", backgroundColor: "#14171A"}}>
