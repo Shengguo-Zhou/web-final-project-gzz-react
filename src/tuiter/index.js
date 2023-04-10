@@ -6,12 +6,15 @@ import HomeComponent from "./home";
 import ProfileComponent from "./profile";
 import EditProfile from "./edit-profile";
 import LeftSideLogoBar from "./left-side-bar/LeftSideLogoBar";
+import LoginComponent from "./login";
+import RegisterComponent from "./register";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 import profileReducer from "./profile/profile-reducer";
+import usersReducer from "./reducers/users-reducer";
 import { configureStore } from '@reduxjs/toolkit';
-import {Provider} from "react-redux";
-const store = configureStore({reducer: {who: whoReducer, tuitsData: tuitsReducer, profile: profileReducer}});
+import {Provider, useSelector} from "react-redux";
+const store = configureStore({reducer: {who: whoReducer, tuitsData: tuitsReducer, profile: profileReducer, users: usersReducer}});
 
 function Tuiter() {
   return (
@@ -39,11 +42,15 @@ function Tuiter() {
                       <Route path="explore" element={<ExploreComponent/>}/>
                       <Route path="profile" element={<ProfileComponent/>}/>
                       <Route path="edit-profile" element={<EditProfile/>}/>
+                      <Route path="login" element={<LoginComponent/>}/>
+                      <Route path="register" element={<RegisterComponent/>}/>
                     </Routes>
                   </div>
-                  <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-                    <WhoToFollowList/>
-                  </div>
+
+                      <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                        <WhoToFollowList />
+                      </div>
+
                 </div>
               </div>
             </div>
